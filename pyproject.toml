@@ -1,0 +1,19 @@
+[project]
+name = "numpy-sprint"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mehmetcanyilmaaz", email = "mehmet.can.yilmaz.27@dartmouth.edu" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.3",
+]
+
+[project.scripts]
+numpy-sprint = "numpy_sprint:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
